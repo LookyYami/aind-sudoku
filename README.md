@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: Constraint propagation works by reducing the search space of the problem, that is achieved by enforcing consistency conditions. In the case of the naked twins strategy the rule enforced is that if two boxes in a same unit share a two digit value these digits are bound to be in these boxes, as such if any other boxes share on one or both digits these are removed from the possible values for these boxes.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: Adding the diagonals to the search space only impplies that these units should obey the same rules as the rest of the puzzle. As such these are added to the unit list where they will be part of the search space for consistency conditions and constraint propagation.
 
 ### Install
 
